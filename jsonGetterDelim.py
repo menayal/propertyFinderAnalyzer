@@ -47,12 +47,12 @@ def querySplitAndAnalysis(query):
 
 if __name__ == '__main__':
     findJson()
-    # query = input(
-    #     "What kind of property are you looking for? Give me some details (city, max price, sqft, rooms, bathrooms):\n"
-    #     "(Note: currently only works with one city(Glendale Heights)\n"
-    #     "Enter each field separated by a comma. Enter nothing if you have no preference.\n"
-    #     "Example request: Glendale heights, 150000,,2,1:\n")
-    # queryTokenList = querySplitAndAnalysis(query)
-    # print(queryTokenList)
+    query = input(
+        "What kind of property are you looking for? Give me some details (city, max price, sqft, rooms, bathrooms):\n"
+        "(Note: currently only works with one city(Glendale Heights)\n"
+        "Enter each field separated by a comma. Enter nothing if you have no preference.\n"
+        "Example request: Glendale heights, 150000,,2,1:\n")
+    queryTokenList = querySplitAndAnalysis(query)
+    print(queryTokenList)
 
 
