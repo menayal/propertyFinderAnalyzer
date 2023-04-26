@@ -1,3 +1,4 @@
+asgiref==3.6.0
 beautifulsoup4==4.12.2
 blis==0.7.9
 catalogue==2.0.8
@@ -8,6 +9,7 @@ colorama==0.4.6
 confection==0.0.4
 cssselect==1.2.0
 cymem==2.0.7
+Django==4.2
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.5.0/en_core_web_lg-3.5.0-py3-none-any.whl
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
 feedfinder2==0.0.4
@@ -33,6 +35,8 @@ preshed==3.0.8
 pycountry==22.3.5
 pydantic==1.10.7
 python-dateutil==2.8.2
+python-decouple==3.8
+python-dotenv==1.0.0
 pytz==2023.3
 PyYAML==6.0
 regex==2023.3.23
@@ -45,6 +49,7 @@ soupsieve==2.4.1
 spacy==3.5.2
 spacy-legacy==3.0.12
 spacy-loggers==1.0.4
+sqlparse==0.4.4
 srsly==2.4.6
 thinc==8.1.9
 tinysegmenter==0.3
