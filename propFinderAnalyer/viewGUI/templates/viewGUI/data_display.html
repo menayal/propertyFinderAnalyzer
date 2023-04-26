@@ -11,67 +11,83 @@
         margin: 0;
         padding: 0;
       }
+              #map {
+    height: 100%;
+    width: 50%;
+    float: left;
+  }
 
-      #map {
-        height: 100%;
-        width: 50%;
-        float: left;
-      }
+  #table {
+    height: 100%;
+    width: 50%;
+    overflow-y: scroll;
+    float: right;
+  }
 
-      #table {
-        height: 100%;
-        width: 50%;
-        overflow-y: scroll;
-        float: right;
-      }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
 
-      table {
-        width: 100%;
-        border-collapse: collapse;
-      }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
 
-      th, td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-      }
-
-      th {
-        background-color: #f2f2f2;
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{api_key}}"></script>
-    <table>
-        <thead>
-            <tr>
-                <th>Address</th>
-                <th>City</th>
-                <th>State</th>
-                <th>Postal Code</th>
-                <th>Price</th>
-                <th>Bedrooms</th>
-                <th>Sqft</th>
-                <th>Bathrooms</th>
-                <th>lon</th>
-                <th>lat</th>
-           </tr>
-        </thead>
-        {% for item in data %}
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?key={{api_key}}"></script>
+<div id="map"></div>
+<table>
+    <thead>
         <tr>
-            <td>{{ item.0 }}</td>
-            <td>{{ item.1 }}</td>
-            <td>{{ item.2 }}</td>
-            <td>{{ item.3 }}</td>
-            <td>{{ item.4 }}</td>
-            <td>{{ item.5 }}</td>
-            <td>{{ item.6 }}</td>
-            <td>{{ item.7 }}</td>
-            <td>{{ item.8 }}</td>
-            <td>{{ item.9 }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Postal Code</th>
+            <th>Price</th>
+            <th>Bedrooms</th>
+            <th>Sqft</th>
+            <th>Bathrooms</th>
+            <th>lon</th>
+            <th>lat</th>
+       </tr>
+    </thead>
+    {% for item in data %}
+    <tr>
+        <td>{{ item.0 }}</td>
+        <td>{{ item.1 }}</td>
+        <td>{{ item.2 }}</td>
+        <td>{{ item.3 }}</td>
+        <td>{{ item.4 }}</td>
+        <td>{{ item.5 }}</td>
+        <td>{{ item.6 }}</td>
+        <td>{{ item.7 }}</td>
+        <td>{{ item.8 }}</td>
+        <td>{{ item.9 }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: {lat: 41.9198, lng: -88.0817}
+    });
+
+    {% for item in data %}
+      var marker{{loop.index}} = new google.maps.Marker({
+        position: {lat: {{item.9}}, lng: {{item.8}}}
+      });
+      marker{{loop.index}}.setMap(map);
+    {% endfor %}
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap">
+</script>
 </body>
 </html>
-
-
