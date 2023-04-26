@@ -32,14 +32,14 @@ for i in data["data"]["home_search"]["results"]:
 # Commit the changes to the database
 conn.commit()
 
-
-for r in cursor.execute("select * from houses"):
-    print(r)
-
-print("************************************")
-cursor.execute("select * from houses where bathrooms=:b", {"b": 3})
-search = cursor.fetchall()
-print(search)
+#
+# for r in cursor.execute("select * from houses"):
+#     print(r)
+#
+# print("************************************")
+# cursor.execute("select * from houses where bathrooms=:b", {"b": 3})
+# search = cursor.fetchall()
+# print(search)
 # Close the cursor and connection objects
 cursor.close()
 conn.close()
