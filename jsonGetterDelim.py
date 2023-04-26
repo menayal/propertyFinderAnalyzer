@@ -55,4 +55,5 @@ if __name__ == '__main__':
     queryTokenList = querySplitAndAnalysis(query)
     print(queryTokenList)
 
-
+#@TODO: Get project on Django and display the houses with the coords, do your computations and display cash on cash return
+#@TODO: read in the json data into a database that way you can sort through it
