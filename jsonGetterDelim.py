@@ -31,7 +31,9 @@ def findJson():
             "price": i['list_price'],
             "bedrooms": i['description']['beds'],
             "sqft": i['description']['sqft'],
-            "bathrooms": i['description']['baths']
+            "bathrooms": i['description']['baths'],
+            "lon": i['location']['address']['coordinate']['lon'],
+            "lat": i['location']['address']['coordinate']['lat'],
         }
         data_list.append(data_dict)
     pd.set_option('display.max_columns', None)
