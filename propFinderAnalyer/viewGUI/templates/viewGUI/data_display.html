@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Data Display</title>
     <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        height: 100%;
+        /* Set font family and background color */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+    /* Center the header */
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* Set the size and position of the map and table containers */
+    #map, #table {
+        height: 500px;
         width: 50%;
         float: left;
-      }
-      #table {
-        height: 100%;
-        width: 50%;
-        overflow-y: scroll;
-        float: right;
-      }
-      table {
+    }
+
+    /* Set styles for the table */
+    table {
         width: 100%;
         border-collapse: collapse;
-      }
-      th, td {
+        margin-top: 20px;
+    }
+
+    th, td {
         padding: 8px;
         text-align: left;
         border-bottom: 1px solid #ddd;
-      }
-      th {
+    }
+
+    th {
         background-color: #f2f2f2;
-      }
-      .hidden {
+    }
+
+    /* Highlight table row on hover */
+    .table-row:hover {
+        background-color: #e5e5e5;
+        cursor: pointer;
+    }
+
+    /* Hide columns for lat and lon values */
+    .hidden {
         display: none;
-      }
-    </style>
+    }
+</style>
+
 </head>
 <body>
     <h1>Data Display</h1>
