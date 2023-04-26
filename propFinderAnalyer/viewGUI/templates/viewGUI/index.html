@@ -1,0 +1,143 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <title>House Addresses Map</title>-->
+<!--    <script src="https://maps.googleapis.com/maps/api/js?key={{api_key}}"></script>-->
+<!--    <script>-->
+<!--      function initMap() {-->
+<!--        var map = new google.maps.Map(document.getElementById('map'), {-->
+<!--          zoom: 10,-->
+<!--          center: {lat:  41.9198, lng: -88.0817} // default map center - glendale heights-->
+<!--        });-->
+
+<!--        // Add markers for each house-->
+<!--        var house1 = {lat: 41.919786, lng: -88.086804};-->
+<!--        var house2 = {lat: 37.7775, lng: -122.4168};-->
+<!--        var marker1 = new google.maps.Marker({-->
+<!--          position: house1,-->
+<!--          map: map,-->
+<!--          title: 'House 1'-->
+<!--        });-->
+<!--        var marker2 = new google.maps.Marker({-->
+<!--          position: house2,-->
+<!--          map: map,-->
+<!--          title: 'House 2'-->
+<!--        });-->
+
+<!--&lt;!&ndash;        marker = new google.maps.Marker({&ndash;&gt;-->
+<!--&lt;!&ndash;          position: {lat: 42.919786, lng: -88.086804},&ndash;&gt;-->
+<!--&lt;!&ndash;          map: map,&ndash;&gt;-->
+<!--&lt;!&ndash;          draggable: true, // make the marker draggable&ndash;&gt;-->
+<!--&lt;!&ndash;          title: 'Selectable Marker'&ndash;&gt;-->
+<!--&lt;!&ndash;        });&ndash;&gt;-->
+
+<!--&lt;!&ndash;        // add a click event listener to the marker&ndash;&gt;-->
+<!--        marker1.addListener('click', function() {-->
+<!--          alert('Marker clicked!'); //does something-->
+<!--        });-->
+      }
+    </script>
+<!--  </head>-->
+<!--  <body onload="initMap()">-->
+<!--    <div id="map" style="height: 1000px;"></div>-->
+<!--  </body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>House Addresses Map</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        height: 100%;
+        width: 50%;
+        float: left;
+      }
+
+      #table {
+        height: 100%;
+        width: 50%;
+        overflow-y: scroll;
+        float: right;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{api_key}}"></script>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: {lat:  41.9198, lng: -88.0817} // default map center - glendale heights
+        });
+
+        // Add markers for each house
+        var house1 = {lat: 41.919786, lng: -88.086804};
+        var house2 = {lat: 37.7775, lng: -122.4168};
+        var marker1 = new google.maps.Marker({
+          position: house1,
+          map: map,
+          title: 'House 1'
+        });
+        var marker2 = new google.maps.Marker({
+          position: house2,
+          map: map,
+          title: 'House 2'
+        });
+
+        <!--        // add a click event listener to the marker-->
+        marker1.addListener('click', function() {
+          alert('Marker clicked!'); //does something
+        });
+
+        // Add data to the table
+        var table = document.getElementById('table-body');
+        var row1 = table.insertRow(0);
+        var cell1 = row1.insertCell(0);
+        var cell2 = row1.insertCell(1);
+        cell1.innerHTML = 'House 1';
+        cell2.innerHTML = '41.919786, -88.086804';
+
+        var row2 = table.insertRow(1);
+        var cell3 = row2.insertCell(0);
+        var cell4 = row2.insertCell(1);
+        cell3.innerHTML = 'House 2';
+        cell4.innerHTML = '37.7775, -122.4168';
+      }
+    </script>
+  </head>
+  <body onload="initMap()">
+    <div id="map"></div>
+    <div id="table">
+      <table>
+        <thead>
+          <tr>
+            <th>House Name</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
