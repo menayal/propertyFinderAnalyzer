@@ -7,11 +7,13 @@ import sqlite3
 
 # Load the data from the JSON file
 # with open("housing_data/houses10.json", "r") as file:
-with open("housing_data/house42.json", "r") as file:
+# with open("housing_data/house42.json", "r") as file:
+with open("housing_data/newData60139NoLimit.json", "r") as file:
     data = json.load(file)
 
 # Connect to the SQLite database
-conn = sqlite3.connect('house42.db')
+# conn = sqlite3.connect('house42.db')
+conn = sqlite3.connect('newData60139NoLimit.db')
 
 # Create a cursor object
 cursor = conn.cursor()

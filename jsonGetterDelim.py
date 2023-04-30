@@ -5,7 +5,7 @@ This code gets JSON data and attempts to filter through it.
 import json
 import pandas as pd
 import nltk  # tokenize
-# nltk.download('punkt')
+nltk.download('punkt')
 import spacy  # entity recognition
 
 
@@ -13,6 +13,7 @@ import spacy  # entity recognition
 def findJson():
     # Load the data from the JSON file
     with open("housing_data/houses10.json", "r") as file:
+    # with open("housing_data/delimHouses60139NoLimit.json", "r") as file:
         data = json.load(file)
 
     data_list = []
