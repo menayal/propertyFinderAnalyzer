@@ -1,0 +1,3925 @@
+{
+  "status": 200,
+  "data": {
+    "home_search": {
+      "total": 46,
+      "count": 15,
+      "results": [
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/4a17c00f7e2b5495801493679e4902a9l-m2568904874s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-28T18:40:54Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": "Redfin Corporation"
+              },
+              {
+                "office_name": "Redfin Corporation"
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "family_room",
+            "hardwood_floors",
+            "laundry_room",
+            "washer_dryer",
+            "basement",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "modern_kitchen",
+            "large_kitchen",
+            "fenced_yard",
+            "corner_lot",
+            "library",
+            "big_lot",
+            "golf_course",
+            "lake",
+            "shopping"
+          ],
+          "permalink": "1648-President-St_Glendale-Heights_IL_60139_M73755-36980",
+          "status": "for_sale",
+          "list_date": "2023-04-28T18:40:54Z",
+          "open_houses": [
+            {
+              "start_date": "2023-05-06T11:00:00",
+              "methods": [
+                "in_person"
+              ],
+              "description": null,
+              "end_date": "2023-05-06T13:00:00",
+              "dst": true,
+              "time_zone": "CST"
+            }
+          ],
+          "tax_record": {
+            "public_record_id": "EF0F16BBC7DF30A254048CB5432F8013"
+          },
+          "branding": [
+            {
+              "name": "Redfin Corporation",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/4a17c00f7e2b5495801493679e4902a9l-m2568904874s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/4a17c00f7e2b5495801493679e4902a9l-m1001929835s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 289000,
+          "matterport": false,
+          "property_id": "7375536980",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1965,
+            "baths_3qtr": null,
+            "sold_date": "2009-05-18",
+            "sold_price": 200000,
+            "baths_full": 1,
+            "name": null,
+            "baths_half": 1,
+            "lot_sqft": null,
+            "sqft": 1040,
+            "baths": 2,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": 2,
+            "beds": 3,
+            "type": "single_family"
+          },
+          "listing_id": "2955070237",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.091428,
+                "lat": 41.918932
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1648 President St"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1648%20President%20St%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=c3lXt08N6AMKIrw5CV6DPu6mjC8=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2955070237",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "596520815",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "506655891",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "565576339",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/fe0d8d16a18a6daadb986cba2650474el-m3340899332s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-29T18:30:47Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "dishwasher",
+            "family_room",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "washer_dryer",
+            "basement",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "high_ceiling",
+            "maintenance",
+            "shopping"
+          ],
+          "permalink": "1842-Concord-Dr_Glendale-Heights_IL_60139_M84045-07950",
+          "status": "for_sale",
+          "list_date": "2023-04-28T17:43:12Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "EB16621CACAD00DED7796230C9D5CFD9"
+          },
+          "branding": [
+            {
+              "name": "Baird & Warner Fox Valley",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/fe0d8d16a18a6daadb986cba2650474el-m3340899332s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/fe0d8d16a18a6daadb986cba2650474el-m3402633746s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 285000,
+          "matterport": false,
+          "property_id": "8404507950",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 2000,
+            "baths_3qtr": null,
+            "sold_date": "2012-05-22",
+            "sold_price": 136000,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": 1,
+            "lot_sqft": null,
+            "sqft": 1738,
+            "baths": 3,
+            "sub_type": "townhouse",
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": 2,
+            "beds": 3,
+            "type": "townhomes"
+          },
+          "listing_id": "2955067460",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.076575,
+                "lat": 41.924058
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1842 Concord Dr"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1842%20Concord%20Dr%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=n9bN7rRrd8sIxg_Xt53lgHfBXyM=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2955067460",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "548377951",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/c2bef8c3b6d80f80dfac8284a961a500l-m1419933582s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-29T01:17:02Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": "Chicagoland Brokers Inc."
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "family_room",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "basement",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "high_ceiling",
+            "vaulted_ceiling",
+            "open_floor_plan",
+            "floor_plan",
+            "rental_property",
+            "park",
+            "playground",
+            "golf_course",
+            "lake",
+            "hoa",
+            "groundscare",
+            "maintenance",
+            "shopping"
+          ],
+          "permalink": "1816-Concord-Dr_Glendale-Heights_IL_60139_M73356-71561",
+          "status": "for_sale",
+          "list_date": "2023-04-28T17:19:04Z",
+          "open_houses": [
+            {
+              "start_date": "2023-04-30T12:00:00",
+              "methods": [
+                "in_person"
+              ],
+              "description": null,
+              "end_date": "2023-04-30T15:00:00",
+              "dst": true,
+              "time_zone": "CST"
+            }
+          ],
+          "tax_record": {
+            "public_record_id": "D355CF811F511DAFBE31F1FD0097F5D7"
+          },
+          "branding": [
+            {
+              "name": "Chicagoland Brokers, Inc. - Chicago",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/c2bef8c3b6d80f80dfac8284a961a500l-m1419933582s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/c2bef8c3b6d80f80dfac8284a961a500l-m526653518s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 298000,
+          "matterport": false,
+          "property_id": "7335671561",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 2001,
+            "baths_3qtr": null,
+            "sold_date": "2001-04-02",
+            "sold_price": 185500,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": 1,
+            "lot_sqft": null,
+            "sqft": 1779,
+            "baths": 3,
+            "sub_type": "condo",
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": 3,
+            "beds": 3,
+            "type": "condos"
+          },
+          "listing_id": "2955066424",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.076575,
+                "lat": 41.924058
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1816 Concord Dr"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1816%20Concord%20Dr%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=yye9EAXMzeHFgdsGwG1ySf2Bp1k=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2955066424",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "587507155",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/91fd7eb54647267ed06896bb7d1c8f79l-m375449181s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-29T22:48:44Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "dishwasher",
+            "family_room",
+            "fireplace",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "big_yard",
+            "floor_plan",
+            "master_suite",
+            "groundscare",
+            "shopping"
+          ],
+          "permalink": "101-Fleetwood-Dr_Glendale-Heights_IL_60139_M87995-79797",
+          "status": "for_sale",
+          "list_date": "2023-04-28T15:46:44Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "12E26FB607467120080EE1935603520A"
+          },
+          "branding": [
+            {
+              "name": "Select A Fee Real Estate System & Rentals",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/91fd7eb54647267ed06896bb7d1c8f79l-m375449181s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/91fd7eb54647267ed06896bb7d1c8f79l-m339201309s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 429500,
+          "matterport": false,
+          "property_id": "8799579797",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1978,
+            "baths_3qtr": null,
+            "sold_date": null,
+            "sold_price": null,
+            "baths_full": 3,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": 7388,
+            "sqft": 2300,
+            "baths": 3,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": null,
+            "beds": 4,
+            "type": "single_family"
+          },
+          "listing_id": "2955061295",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.096186,
+                "lat": 41.926785
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "101 Fleetwood Dr"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=101%20Fleetwood%20Dr%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=PS1A8vMFxjlVNpuzOvBywNdbASw=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2955061295",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "2950907087",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/a5e6864a955e2402ac3ab88a5a7274fal-b1055019897s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-22T17:34:04Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "dishwasher",
+            "hardwood_floors",
+            "laundry_room",
+            "recreation_facilities",
+            "washer_dryer",
+            "single_story",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "fenced_yard",
+            "farm",
+            "ranch",
+            "groundscare",
+            "shopping"
+          ],
+          "permalink": "385-E-Altgeld-Ave_Glendale-Heights_IL_60139_M77634-44533",
+          "status": "for_sale",
+          "list_date": "2023-04-22T16:36:42Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "6E58CC3500BF85276E21F3D244625B7F"
+          },
+          "branding": [
+            {
+              "name": "RE MAX Suburban",
+              "photo": "https://ap.rdcpix.com/9a1ea1274ae2135906e4de992526d74do-b2274465705s.jpg",
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/a5e6864a955e2402ac3ab88a5a7274fal-b1055019897s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/a5e6864a955e2402ac3ab88a5a7274fal-b391705749s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 299900,
+          "matterport": false,
+          "property_id": "7763444533",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "listing_owner_brand.broker",
+              "co_broke"
+            ],
+            "brand_name": "advantage_brand"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1966,
+            "baths_3qtr": null,
+            "sold_date": "2020-11-18",
+            "sold_price": 223000,
+            "baths_full": 1,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": 7244,
+            "sqft": 1000,
+            "baths": 1,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": 1,
+            "beds": 3,
+            "type": "single_family"
+          },
+          "listing_id": "2954865383",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.072259,
+                "lat": 41.919502
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "385 E Altgeld Ave"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=385%20E%20Altgeld%20Ave%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=rtOi5fHRORHdq0QGdvGSqzh030E=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954865383",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "2954865340",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "2918955155",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "643228019",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "517762319",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/a7e102055e29dfc92f53c5da1c510506l-m87472953s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-21T19:36:57Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": "HomeSmart Realty Group"
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "family_room",
+            "fireplace",
+            "laundry_room",
+            "basement",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "kitchen_island",
+            "cathedral_ceiling",
+            "master_suite",
+            "fixer_upper"
+          ],
+          "permalink": "1036-Victoria-Ln_Glendale-Heights_IL_60139_M84772-51069",
+          "status": "for_sale",
+          "list_date": "2023-04-21T19:35:10Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "362F79D6528CC5D4692BC54A83309059"
+          },
+          "branding": [
+            {
+              "name": "Naperville - Homesmart Realty Group",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/a7e102055e29dfc92f53c5da1c510506l-m87472953s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/a7e102055e29dfc92f53c5da1c510506l-m2451027267s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 414960,
+          "matterport": false,
+          "property_id": "8477251069",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": true,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 2003,
+            "baths_3qtr": null,
+            "sold_date": "2002-04-09",
+            "sold_price": 295500,
+            "baths_full": 3,
+            "name": null,
+            "baths_half": 1,
+            "lot_sqft": 7841,
+            "sqft": 2730,
+            "baths": 4,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": 2,
+            "beds": 4,
+            "type": "single_family"
+          },
+          "listing_id": "2954837935",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.0693,
+                "lat": 41.898002
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1036 Victoria Ln"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1036%20Victoria%20Ln%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=NaQeUrc3ZPzB_USXiZkAkXPKKB4=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954837935",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "567509431",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "567382855",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "567642847",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "567515787",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/dfd0814cc9d721c73955ff2682468b27l-m2166782980s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-15T13:24:44Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": "Coldwell Banker Realty"
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "family_room",
+            "forced_air",
+            "basement",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "single_story",
+            "big_yard",
+            "fenced_yard",
+            "open_floor_plan",
+            "floor_plan",
+            "farm",
+            "ranch"
+          ],
+          "permalink": "157-W-Stevenson-Dr_Glendale-Heights_IL_60139_M70293-99594",
+          "status": "for_sale",
+          "list_date": "2023-04-14T19:10:59Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "B5354023C1FEFB4002FE0E05161C9C0B"
+          },
+          "branding": [
+            {
+              "name": "Coldwell Banker Realty",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/dfd0814cc9d721c73955ff2682468b27l-m2166782980s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/dfd0814cc9d721c73955ff2682468b27l-m3828321086s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": null,
+          "matterport": false,
+          "property_id": "7029399594",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": true,
+            "is_new_listing": false,
+            "is_coming_soon": null,
+            "is_contingent": null
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1977,
+            "baths_3qtr": null,
+            "sold_date": "2005-11-22",
+            "sold_price": 255000,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": null,
+            "sqft": 1170,
+            "baths": 2,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": null,
+            "beds": 3,
+            "type": "single_family"
+          },
+          "listing_id": "2954593983",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.098674,
+                "lat": 41.921999
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "157 W Stevenson Dr"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=157%20W%20Stevenson%20Dr%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=4o4ard0Pl76Ca3nXn_WIDnnIjMs=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954593983",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "2951232847",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/72e5ca2a234f06873250e44ce96b8565l-b3485549733s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-25T14:23:01Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": "RE/MAX Suburban"
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "dishwasher",
+            "family_room",
+            "forced_air",
+            "game_room",
+            "basement",
+            "garage_1_or_more",
+            "farm",
+            "ranch"
+          ],
+          "permalink": "1572-Gerald-Ave_Glendale-Heights_IL_60139_M80034-18830",
+          "status": "for_sale",
+          "list_date": "2023-04-21T19:42:56Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "24335880A213D7071D30C98BD0F9E916"
+          },
+          "branding": [
+            {
+              "name": "RE/MAX SUBURBAN - Glen Ellyn",
+              "photo": "https://ap.rdcpix.com/80e3b8284b42474e8c4c8964e8712222o-b2274465705s.jpg",
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/72e5ca2a234f06873250e44ce96b8565l-b3485549733s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/72e5ca2a234f06873250e44ce96b8565l-b3280529910s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 299000,
+          "matterport": false,
+          "property_id": "8003418830",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "listing_owner_brand.broker",
+              "co_broke"
+            ],
+            "brand_name": "advantage_brand"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1965,
+            "baths_3qtr": null,
+            "sold_date": "2000-06-12",
+            "sold_price": 151500,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": 7841,
+            "sqft": 1020,
+            "baths": 2,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 1,
+            "stories": null,
+            "beds": 3,
+            "type": "single_family"
+          },
+          "listing_id": "2954838248",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.070094,
+                "lat": 41.91694
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1572 Gerald Ave"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1572%20Gerald%20Ave%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=9oW3GvvrTHlA20vZHg6GfQFro94=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954838248",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/c34fd867a780e872b21db10fcef668ffl-m3486354681s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-26T16:07:02Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": "Baird & Warner"
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "dishwasher",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "washer_dryer",
+            "two_or_more_stories",
+            "garage_1_or_more"
+          ],
+          "permalink": "157-Shorewood-Dr_Glendale-Heights_IL_60139_M78171-73799",
+          "status": "for_sale",
+          "list_date": "2023-04-21T18:11:35Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "D37E8C7319D053BBF044DDB2F03459E8"
+          },
+          "branding": [
+            {
+              "name": "Baird & Warner Glen Ellyn",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/c34fd867a780e872b21db10fcef668ffl-m3486354681s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/c34fd867a780e872b21db10fcef668ffl-m3486354681s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 215000,
+          "matterport": false,
+          "property_id": "7817173799",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": [
+            {
+              "type": null,
+              "href": "https://tours.vht.com/BWI/T434315368/nobranding"
+            }
+          ],
+          "description": {
+            "year_built": 1996,
+            "baths_3qtr": null,
+            "sold_date": "2017-07-24",
+            "sold_price": 150000,
+            "baths_full": 1,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": null,
+            "sqft": 1309,
+            "baths": 1,
+            "sub_type": "townhouse",
+            "baths_1qtr": null,
+            "garage": 1,
+            "stories": 2,
+            "beds": 2,
+            "type": "townhomes"
+          },
+          "listing_id": "2954833799",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.083623,
+                "lat": 41.899185
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "157 Shorewood Dr"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=157%20Shorewood%20Dr%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=MjKIcA01pQ-knQNe0CBRtM-VwcM=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954833799",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "620845815",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/7d1d9799bc9991e3a08a8c75dcc0c510l-m2648201016s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-24T17:21:49Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "dishwasher",
+            "fireplace",
+            "forced_air",
+            "laundry_room",
+            "pets_allowed",
+            "recreation_facilities",
+            "view",
+            "washer_dryer",
+            "single_story",
+            "garage_1_or_more",
+            "waterfront",
+            "updated_kitchen",
+            "vaulted_ceiling",
+            "open_floor_plan",
+            "floor_plan",
+            "guest_parking",
+            "pond",
+            "shopping"
+          ],
+          "permalink": "1117-Kingston-Ct_Glendale-Heights_IL_60139_M81079-78841",
+          "status": "for_sale",
+          "list_date": "2023-04-20T15:58:41Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "E102322B80CA9F1BFC8D99750E3B6886"
+          },
+          "branding": [
+            {
+              "name": "Berkshire Hathaway Starck Real Estate",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/7d1d9799bc9991e3a08a8c75dcc0c510l-m2648201016s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/7d1d9799bc9991e3a08a8c75dcc0c510l-m483046423s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 199900,
+          "matterport": false,
+          "property_id": "8107978841",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1994,
+            "baths_3qtr": null,
+            "sold_date": "2010-07-07",
+            "sold_price": 151500,
+            "baths_full": 1,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": null,
+            "sqft": 1089,
+            "baths": 1,
+            "sub_type": "condo",
+            "baths_1qtr": null,
+            "garage": 1,
+            "stories": 1,
+            "beds": 2,
+            "type": "condos"
+          },
+          "listing_id": "2954773965",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.086726,
+                "lat": 41.899574
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1117 Kingston Ct Unit 1117"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1117%20Kingston%20Ct%20Unit%201117%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=9xo-u143WfbaFdZD8qxU-g4r3KY=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954773965",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "508934595",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "565632595",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/ea5a0398484f625ffce3915359689452l-m1983563658s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-23T13:39:54Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "washer_dryer",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "rental_property",
+            "shopping"
+          ],
+          "permalink": "493-Sidney-Ave-Unit-B_Glendale-Heights_IL_60139_M76766-94614",
+          "status": "for_sale",
+          "list_date": "2023-04-20T16:28:32Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "C10216686570495B99FC6F4208BC9826"
+          },
+          "branding": [
+            {
+              "name": "@properties Western Springs",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/ea5a0398484f625ffce3915359689452l-m1983563658s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/ea5a0398484f625ffce3915359689452l-m395142426s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 159900,
+          "matterport": false,
+          "property_id": "7676694614",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1973,
+            "baths_3qtr": null,
+            "sold_date": "2012-01-05",
+            "sold_price": 50000,
+            "baths_full": 1,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": null,
+            "sqft": 882,
+            "baths": 1,
+            "sub_type": "condo",
+            "baths_1qtr": null,
+            "garage": 1,
+            "stories": 2,
+            "beds": 2,
+            "type": "condos"
+          },
+          "listing_id": "2954775427",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.067102,
+                "lat": 41.906553
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "493 Sidney Ave Unit B"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=493%20Sidney%20Ave%20Unit%20B%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=y9ckkx0QUcl49D5S35jQa6snxeQ=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954775427",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "642054979",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "537378119",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "517835115",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "567043579",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "567662179",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/38db32ddf6650e0a9b7a0427b6688c0al-m4227230815s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-24T13:42:48Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_clubhouse",
+            "dishwasher",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "recreation_facilities",
+            "community_swimming_pool",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "fenced_yard",
+            "soccer"
+          ],
+          "permalink": "291-E-Alpine-Dr_Glendale-Heights_IL_60139_M75634-00954",
+          "status": "for_sale",
+          "list_date": "2023-04-20T15:07:45Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "2FB241A4CFE169E7F21473A87E6786E0"
+          },
+          "branding": [
+            {
+              "name": "COMPASS",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/38db32ddf6650e0a9b7a0427b6688c0al-m4227230815s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/38db32ddf6650e0a9b7a0427b6688c0al-m665154933s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 199900,
+          "matterport": false,
+          "property_id": "7563400954",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1974,
+            "baths_3qtr": null,
+            "sold_date": "2011-05-09",
+            "sold_price": 75000,
+            "baths_full": 1,
+            "name": null,
+            "baths_half": 1,
+            "lot_sqft": null,
+            "sqft": 1248,
+            "baths": 2,
+            "sub_type": "townhouse",
+            "baths_1qtr": null,
+            "garage": 1,
+            "stories": 2,
+            "beds": 3,
+            "type": "townhomes"
+          },
+          "listing_id": "2954771486",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.076958,
+                "lat": 41.927661
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "291 E Alpine Dr"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=291%20E%20Alpine%20Dr%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=hzFtYzhEh4tcdcku7t3BxZ1hQVA=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954771486",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "523378183",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/99450521f5940fbd4cccaed66a1f0689l-m3092927216s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-22T01:45:53Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "disability_features",
+            "fireplace",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "single_story",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "high_ceiling",
+            "master_bedroom",
+            "farm",
+            "ranch",
+            "new_roof",
+            "shopping"
+          ],
+          "permalink": "300-Blue-Spruce-Ln_Glendale-Heights_IL_60139_M82958-02983",
+          "status": "for_sale",
+          "list_date": "2023-04-18T22:58:04Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "B6C71E6512B1E2E86F7FBD8632AD9E1F"
+          },
+          "branding": [
+            {
+              "name": "@properties Libertyville",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/99450521f5940fbd4cccaed66a1f0689l-m3092927216s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/99450521f5940fbd4cccaed66a1f0689l-m1630205646s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 250000,
+          "matterport": false,
+          "property_id": "8295802983",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": true,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": [
+            {
+              "type": null,
+              "href": "https://www.vht.com/434314067/idx"
+            }
+          ],
+          "description": {
+            "year_built": 2000,
+            "baths_3qtr": null,
+            "sold_date": "2017-07-03",
+            "sold_price": 188000,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": null,
+            "sqft": 1347,
+            "baths": 2,
+            "sub_type": "condo",
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": 1,
+            "beds": 2,
+            "type": "condos"
+          },
+          "listing_id": "2954703892",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.077274,
+                "lat": 41.93269
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "300 Blue Spruce Ln"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=300%20Blue%20Spruce%20Ln%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=KkM3nMi6E68H_aOhiw0ONZgktGo=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954703892",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "619343759",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "548086567",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "528076191",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "515021411",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "514363267",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "510537691",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "506615239",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/a51b5abee5bfb59ab7725cacdbf6c00al-m2001075614s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-19T00:15:37Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "den_or_office",
+            "dishwasher",
+            "family_room",
+            "hardwood_floors",
+            "laundry_room",
+            "washer_dryer",
+            "basement",
+            "garage_1_or_more",
+            "garage_2_or_more",
+            "two_or_more_stories",
+            "updated_kitchen"
+          ],
+          "permalink": "282-Belden-Ave_Glendale-Heights_IL_60139_M79252-72852",
+          "status": "for_sale",
+          "list_date": "2023-04-13T12:10:30Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "EA56A718D5F505BE0D3576DD074E8442"
+          },
+          "branding": [
+            {
+              "name": "Team Realty Co.",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/a51b5abee5bfb59ab7725cacdbf6c00al-m2001075614s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/a51b5abee5bfb59ab7725cacdbf6c00al-m3255344436s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 343900,
+          "matterport": false,
+          "property_id": "7925272852",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": false,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1968,
+            "baths_3qtr": null,
+            "sold_date": "1986-05-01",
+            "sold_price": 76000,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": 7035,
+            "sqft": 1690,
+            "baths": 2,
+            "sub_type": null,
+            "baths_1qtr": null,
+            "garage": 2,
+            "stories": null,
+            "beds": 4,
+            "type": "single_family"
+          },
+          "listing_id": "2954515070",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.077372,
+                "lat": 41.915602
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "282 Belden Ave"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=282%20Belden%20Ave%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=Zt5tZe0dtXsrFqJ_aJf3BkcGUAA=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954515070",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "2952448696",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              },
+              {
+                "listing_id": "2951822770",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        },
+        {
+          "primary_photo": {
+            "href": "https://ap.rdcpix.com/aff87e0c1c2fe1d81cb539562dd16d2al-b3198801887s-w1024_h768.jpg"
+          },
+          "last_update_date": "2023-04-15T20:10:03Z",
+          "source": {
+            "agents": [
+              {
+                "office_name": null
+              },
+              {
+                "office_name": null
+              }
+            ],
+            "id": "CHIL",
+            "plan_id": null,
+            "spec_id": null,
+            "type": "mls"
+          },
+          "tags": [
+            "central_air",
+            "community_outdoor_space",
+            "cul_de_sac",
+            "dishwasher",
+            "fireplace",
+            "forced_air",
+            "hardwood_floors",
+            "laundry_room",
+            "pets_allowed",
+            "washer_dryer",
+            "single_story",
+            "garage_1_or_more",
+            "guest_parking",
+            "rental_property",
+            "shopping"
+          ],
+          "permalink": "1098-Camden-Ct_Glendale-Heights_IL_60139_M80948-81468",
+          "status": "for_sale",
+          "list_date": "2023-04-12T01:01:00Z",
+          "open_houses": null,
+          "tax_record": {
+            "public_record_id": "A883544F96C8D3FE18F69C30C0A4009E"
+          },
+          "branding": [
+            {
+              "name": "Coldwell Banker Realty",
+              "photo": null,
+              "type": "Office"
+            }
+          ],
+          "photos": [
+            {
+              "href": "https://ap.rdcpix.com/aff87e0c1c2fe1d81cb539562dd16d2al-b3198801887s-w1024_h768.jpg"
+            },
+            {
+              "href": "https://ap.rdcpix.com/aff87e0c1c2fe1d81cb539562dd16d2al-b3201757060s-w1024_h768.jpg"
+            }
+          ],
+          "coming_soon_date": null,
+          "list_price": 215000,
+          "matterport": false,
+          "property_id": "8094881468",
+          "flags": {
+            "is_new_construction": null,
+            "is_subdivision": null,
+            "is_plan": null,
+            "is_price_reduced": null,
+            "is_pending": null,
+            "is_foreclosure": null,
+            "is_new_listing": false,
+            "is_coming_soon": null,
+            "is_contingent": true
+          },
+          "lead_attributes": {
+            "show_contact_an_agent": true,
+            "opcity_lead_attributes": {
+              "flip_the_market_enabled": true,
+              "cashback_enabled": false
+            },
+            "lead_type": "co_broke"
+          },
+          "community": null,
+          "products": {
+            "products": [
+              "core.agent",
+              "core.broker",
+              "co_broke"
+            ],
+            "brand_name": "essentials"
+          },
+          "virtual_tours": null,
+          "description": {
+            "year_built": 1994,
+            "baths_3qtr": null,
+            "sold_date": "2018-07-06",
+            "sold_price": 168000,
+            "baths_full": 2,
+            "name": null,
+            "baths_half": null,
+            "lot_sqft": null,
+            "sqft": 947,
+            "baths": 2,
+            "sub_type": "condo",
+            "baths_1qtr": null,
+            "garage": 1,
+            "stories": 1,
+            "beds": 2,
+            "type": "condos"
+          },
+          "listing_id": "2954462000",
+          "price_reduced_amount": null,
+          "location": {
+            "address": {
+              "postal_code": "60139",
+              "state": "Illinois",
+              "coordinate": {
+                "lon": -88.086072,
+                "lat": 41.898906
+              },
+              "city": "Glendale Heights",
+              "state_code": "IL",
+              "line": "1098 Camden Ct"
+            },
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1098%20Camden%20Ct%2C%20Glendale%20Heights%2C%20IL%2060139&size=640x480&source=outdoor&signature=anMCjfLcxeMecLKjK7_lGvmuPkQ=",
+            "county": {
+              "fips_code": "17043",
+              "name": "DuPage"
+            }
+          },
+          "other_listings": {
+            "rdc": [
+              {
+                "listing_id": "2954462000",
+                "listing_key": null,
+                "status": "for_sale",
+                "primary": true
+              },
+              {
+                "listing_id": "630862191",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "509848999",
+                "listing_key": null,
+                "status": "sold",
+                "primary": null
+              },
+              {
+                "listing_id": "502156679",
+                "listing_key": null,
+                "status": "off_market",
+                "primary": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "geo": {
+      "parents": [
+        {
+          "name": "Glendale Heights",
+          "geo_type": "city",
+          "slug_id": "Glendale-Heights_IL"
+        },
+        {
+          "name": "DuPage",
+          "geo_type": "county",
+          "slug_id": "DuPage-County_IL"
+        },
+        {
+          "name": "Illinois",
+          "geo_type": "state",
+          "slug_id": "Illinois"
+        }
+      ],
+      "recommended_zips": {
+        "geos": [
+          {
+            "slug_id": "60188",
+            "postal_code": "60188",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 325000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 332400
+              }
+            }
+          },
+          {
+            "slug_id": "60148",
+            "postal_code": "60148",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 329000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 315000
+              }
+            }
+          },
+          {
+            "slug_id": "60137",
+            "postal_code": "60137",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 499900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 499900
+              }
+            }
+          },
+          {
+            "slug_id": "60010",
+            "postal_code": "60010",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 639000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 599000
+              }
+            }
+          },
+          {
+            "slug_id": "60016",
+            "postal_code": "60016",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 274950
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 269900
+              }
+            }
+          },
+          {
+            "slug_id": "60126",
+            "postal_code": "60126",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 529900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 499900
+              }
+            }
+          },
+          {
+            "slug_id": "60101",
+            "postal_code": "60101",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 379900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 367000
+              }
+            }
+          },
+          {
+            "slug_id": "60193",
+            "postal_code": "60193",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 272450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 267450
+              }
+            }
+          },
+          {
+            "slug_id": "60103",
+            "postal_code": "60103",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 349900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 349700
+              }
+            }
+          },
+          {
+            "slug_id": "60133",
+            "postal_code": "60133",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 275000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 275000
+              }
+            }
+          },
+          {
+            "slug_id": "60067",
+            "postal_code": "60067",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 379000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 369950
+              }
+            }
+          },
+          {
+            "slug_id": "60540",
+            "postal_code": "60540",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 585000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 575000
+              }
+            }
+          },
+          {
+            "slug_id": "60107",
+            "postal_code": "60107",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 275000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 275000
+              }
+            }
+          },
+          {
+            "slug_id": "60563",
+            "postal_code": "60563",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 480000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 465000
+              }
+            }
+          },
+          {
+            "slug_id": "60440",
+            "postal_code": "60440",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 289000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 287000
+              }
+            }
+          },
+          {
+            "slug_id": "60123",
+            "postal_code": "60123",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 277000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 242450
+              }
+            }
+          },
+          {
+            "slug_id": "60515",
+            "postal_code": "60515",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 474900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 429900
+              }
+            }
+          },
+          {
+            "slug_id": "60108",
+            "postal_code": "60108",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 375000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 375000
+              }
+            }
+          },
+          {
+            "slug_id": "60189",
+            "postal_code": "60189",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 439900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 429000
+              }
+            }
+          },
+          {
+            "slug_id": "60185",
+            "postal_code": "60185",
+            "geo_type": "postal_code",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 363250
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 349000
+              }
+            }
+          }
+        ]
+      },
+      "recommended_cities": {
+        "geos": [
+          {
+            "slug_id": "Naperville_IL",
+            "city": "Naperville",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 546450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 539500
+              }
+            }
+          },
+          {
+            "slug_id": "Glendale-Heights_IL",
+            "city": "Glendale Heights",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 259900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 257450
+              }
+            }
+          },
+          {
+            "slug_id": "Aurora_IL",
+            "city": "Aurora",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 288700
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 286750
+              }
+            }
+          },
+          {
+            "slug_id": "Lombard_IL",
+            "city": "Lombard",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 329000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 315000
+              }
+            }
+          },
+          {
+            "slug_id": "Elgin_IL",
+            "city": "Elgin",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 309900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 299000
+              }
+            }
+          },
+          {
+            "slug_id": "Carol-Stream_IL",
+            "city": "Carol Stream",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 325000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 332400
+              }
+            }
+          },
+          {
+            "slug_id": "Wheaton_IL",
+            "city": "Wheaton",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 429500
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 424900
+              }
+            }
+          },
+          {
+            "slug_id": "Glen-Ellyn_IL",
+            "city": "Glen Ellyn",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 499000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 494000
+              }
+            }
+          },
+          {
+            "slug_id": "Schaumburg_IL",
+            "city": "Schaumburg",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 304950
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 300000
+              }
+            }
+          },
+          {
+            "slug_id": "Downers-Grove_IL",
+            "city": "Downers Grove",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 437500
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 425000
+              }
+            }
+          },
+          {
+            "slug_id": "Addison_IL",
+            "city": "Addison",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 384450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 374450
+              }
+            }
+          },
+          {
+            "slug_id": "Bartlett_IL",
+            "city": "Bartlett",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 349900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 349900
+              }
+            }
+          },
+          {
+            "slug_id": "Hanover-Park_IL",
+            "city": "Hanover Park",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 275000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 275000
+              }
+            }
+          },
+          {
+            "slug_id": "Streamwood_IL",
+            "city": "Streamwood",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 275000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 275000
+              }
+            }
+          },
+          {
+            "slug_id": "Bloomingdale_IL",
+            "city": "Bloomingdale",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 375000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 375000
+              }
+            }
+          },
+          {
+            "slug_id": "West-Chicago_IL",
+            "city": "West Chicago",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 349900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 339900
+              }
+            }
+          },
+          {
+            "slug_id": "Lisle_IL",
+            "city": "Lisle",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 365000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 362500
+              }
+            }
+          },
+          {
+            "slug_id": "Villa-Park_IL",
+            "city": "Villa Park",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 292400
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 286900
+              }
+            }
+          },
+          {
+            "slug_id": "Roselle_IL",
+            "city": "Roselle",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 327450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 344450
+              }
+            }
+          },
+          {
+            "slug_id": "Wood-Dale_IL",
+            "city": "Wood Dale",
+            "state_code": "IL",
+            "geo_type": "city",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 315000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 299900
+              }
+            }
+          }
+        ]
+      },
+      "recommended_counties": {
+        "geos": [
+          {
+            "slug_id": "DuPage-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 390000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 389900
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "DuPage"
+          },
+          {
+            "slug_id": "Cook-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 314900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 314900
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Cook"
+          },
+          {
+            "slug_id": "Will-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 339000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 324450
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Will"
+          },
+          {
+            "slug_id": "Kane-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 350000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 339945
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Kane"
+          },
+          {
+            "slug_id": "Kendall-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 369990
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 369900
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Kendall"
+          },
+          {
+            "slug_id": "Lake-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 374900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 355000
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Lake"
+          },
+          {
+            "slug_id": "McHenry-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 319900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 299900
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "McHenry"
+          },
+          {
+            "slug_id": "Lake-County_IN",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 228000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 219900
+              }
+            },
+            "state_code": "IN",
+            "geo_type": "county",
+            "county": "Lake"
+          },
+          {
+            "slug_id": "Winnebago-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 149000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 139900
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Winnebago"
+          },
+          {
+            "slug_id": "Kenosha-County_WI",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 299900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 279900
+              }
+            },
+            "state_code": "WI",
+            "geo_type": "county",
+            "county": "Kenosha"
+          },
+          {
+            "slug_id": "Walworth-County_WI",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 374950
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 357250
+              }
+            },
+            "state_code": "WI",
+            "geo_type": "county",
+            "county": "Walworth"
+          },
+          {
+            "slug_id": "Berrien-County_MI",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 235000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 200000
+              }
+            },
+            "state_code": "MI",
+            "geo_type": "county",
+            "county": "Berrien"
+          },
+          {
+            "slug_id": "Porter-County_IN",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 310000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 284900
+              }
+            },
+            "state_code": "IN",
+            "geo_type": "county",
+            "county": "Porter"
+          },
+          {
+            "slug_id": "Racine-County_WI",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 266500
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 234900
+              }
+            },
+            "state_code": "WI",
+            "geo_type": "county",
+            "county": "Racine"
+          },
+          {
+            "slug_id": "Rock-County_WI",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 259900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 239950
+              }
+            },
+            "state_code": "WI",
+            "geo_type": "county",
+            "county": "Rock"
+          },
+          {
+            "slug_id": "DeKalb-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 249900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 210000
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "DeKalb"
+          },
+          {
+            "slug_id": "LaSalle-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 164900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 149900
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "LaSalle"
+          },
+          {
+            "slug_id": "Van-Buren-County_MI",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 264900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 224900
+              }
+            },
+            "state_code": "MI",
+            "geo_type": "county",
+            "county": "Van Buren"
+          },
+          {
+            "slug_id": "Kankakee-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 185000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 166250
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Kankakee"
+          },
+          {
+            "slug_id": "Grundy-County_IL",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 276892
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 269000
+              }
+            },
+            "state_code": "IL",
+            "geo_type": "county",
+            "county": "Grundy"
+          }
+        ]
+      },
+      "geo_statistics": {
+        "housing_market": {
+          "month_to_month": {
+            "median_days_on_market_percent_change": 2.17,
+            "median_listing_price_percent_change": -1.07,
+            "active_listing_count_percent_change": 4.55,
+            "median_listing_price_sqft_percent_change": 7.98
+          },
+          "median_days_on_market": 47,
+          "median_sold_price": 261500,
+          "median_price_per_sqft": 193,
+          "median_listing_price": 267000,
+          "listing_count": 46,
+          "by_prop_type": [
+            {
+              "attributes": {
+                "median_sold_price": 261500,
+                "median_listing_price": 269450,
+                "median_days_on_market": 47,
+                "median_lot_size": 7800,
+                "median_price_per_sqft": 193
+              },
+              "type": "home"
+            }
+          ],
+          "median_rent_price": null
+        }
+      },
+      "recommended_neighborhoods": {
+        "geos": [
+          {
+            "city": "Itasca",
+            "state_code": "IL",
+            "slug_id": "South-Itasca_Itasca_IL",
+            "neighborhood": "South Itasca",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 362450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 362450
+              }
+            }
+          },
+          {
+            "city": "Itasca",
+            "state_code": "IL",
+            "slug_id": "North-Itasca_Itasca_IL",
+            "neighborhood": "North Itasca",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 405000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 405000
+              }
+            }
+          },
+          {
+            "city": "Winfield",
+            "state_code": "IL",
+            "slug_id": "Jewell-Road_Winfield_IL",
+            "neighborhood": "Jewell Road",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 396450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 396450
+              }
+            }
+          },
+          {
+            "city": "Streamwood",
+            "state_code": "IL",
+            "slug_id": "Woodland-Heights_Streamwood_IL",
+            "neighborhood": "Woodland Heights",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 275000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 275000
+              }
+            }
+          },
+          {
+            "city": "Wheaton",
+            "state_code": "IL",
+            "slug_id": "Danada_Wheaton_IL",
+            "neighborhood": "Danada",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 449900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 449900
+              }
+            }
+          },
+          {
+            "city": "Oak Brook",
+            "state_code": "IL",
+            "slug_id": "Brook-Forest_Oak-Brook_IL",
+            "neighborhood": "Brook Forest",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 1022500
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 1022500
+              }
+            }
+          },
+          {
+            "city": "Schaumburg",
+            "state_code": "IL",
+            "slug_id": "Weathersfield-West_Schaumburg_IL",
+            "neighborhood": "Weathersfield West",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 492500
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 492500
+              }
+            }
+          },
+          {
+            "city": "West Chicago",
+            "state_code": "IL",
+            "slug_id": "Woodland_West-Chicago_IL",
+            "neighborhood": "Woodland",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 337000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 329000
+              }
+            }
+          },
+          {
+            "city": "Roselle",
+            "state_code": "IL",
+            "slug_id": "Village-of-Roselle_Roselle_IL",
+            "neighborhood": "Village of Roselle",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 325000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 325000
+              }
+            }
+          },
+          {
+            "city": "Lisle",
+            "state_code": "IL",
+            "slug_id": "Belmont_Lisle_IL",
+            "neighborhood": "Belmont",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 169000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 169000
+              }
+            }
+          },
+          {
+            "city": "Wheaton",
+            "state_code": "IL",
+            "slug_id": "Arrowhead_Wheaton_IL",
+            "neighborhood": "Arrowhead",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 669900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 669900
+              }
+            }
+          },
+          {
+            "city": "Lisle",
+            "state_code": "IL",
+            "slug_id": "Beau-Bien_Lisle_IL",
+            "neighborhood": "Beau Bien",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 374949
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 349999
+              }
+            }
+          },
+          {
+            "city": "Wheaton",
+            "state_code": "IL",
+            "slug_id": "Stonehedge_Wheaton_IL",
+            "neighborhood": "Stonehedge",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 649900
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 649900
+              }
+            }
+          },
+          {
+            "city": "Streamwood",
+            "state_code": "IL",
+            "slug_id": "Green-Meadows_Streamwood_IL",
+            "neighborhood": "Green Meadows",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 314950
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 314950
+              }
+            }
+          },
+          {
+            "city": "Streamwood",
+            "state_code": "IL",
+            "slug_id": "Streamwood-Green_Streamwood_IL",
+            "neighborhood": "Streamwood Green",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 325000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 325000
+              }
+            }
+          },
+          {
+            "city": "Hoffman Estates",
+            "state_code": "IL",
+            "slug_id": "Highlands_Hoffman-Estates_IL",
+            "neighborhood": "Highlands",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 362000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 362000
+              }
+            }
+          },
+          {
+            "city": "Downers Grove",
+            "state_code": "IL",
+            "slug_id": "Liberty-Park-of-Downers-Grove_Downers-Grove_IL",
+            "neighborhood": "Liberty Park of Downers Grove",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 274450
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 274450
+              }
+            }
+          },
+          {
+            "city": "Warrenville",
+            "state_code": "IL",
+            "slug_id": "Old-Town_Warrenville_IL",
+            "neighborhood": "Old Town",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": null
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 525000
+              }
+            }
+          },
+          {
+            "city": "Naperville",
+            "state_code": "IL",
+            "slug_id": "Steeple-Run_Naperville_IL",
+            "neighborhood": "Steeple Run",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": 375000
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 375000
+              }
+            }
+          },
+          {
+            "city": "West Chicago",
+            "state_code": "IL",
+            "slug_id": "East-Woodland_West-Chicago_IL",
+            "neighborhood": "East Woodland",
+            "geo_type": "neighborhood",
+            "geo_statistics": {
+              "housing_market": {
+                "by_prop_type": [
+                  {
+                    "attributes": {
+                      "median_listing_price": null
+                    },
+                    "type": "home"
+                  }
+                ],
+                "median_listing_price": 269900
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
