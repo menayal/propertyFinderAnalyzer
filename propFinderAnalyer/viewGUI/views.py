@@ -13,7 +13,7 @@ def index(request):
     return render(request, "viewGUI/index.html", context)
 def display_data(request):
     # Connect to the SQLite database
-    conn = sqlite3.connect('../houses.db')
+    conn = sqlite3.connect('../house42.db')
     cursor = conn.cursor()
 
     # Retrieve the data from the houses table
