@@ -1,2 +1,4 @@
 .env
 __pycache__/
+propFinderAnalyer/viewGUI/t.py
+propFinderAnalyer/viewGUI/config.json

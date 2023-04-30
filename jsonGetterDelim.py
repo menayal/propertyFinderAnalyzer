@@ -1,3 +1,7 @@
+'''
+This code gets JSON data and attempts to filter through it.
+'''
+
 import json
 import pandas as pd
 import nltk  # tokenize
@@ -11,15 +15,6 @@ def findJson():
     with open("housing_data/houses10.json", "r") as file:
         data = json.load(file)
 
-    # for i in data["data"]["home_search"]["results"]:
-    #     print(f"{i['location']['address']['line']}, "
-    #           f"{i['location']['address']['city']}, "
-    #           f"{i['location']['address']['state_code']}, "
-    #           f"{i['location']['address']['postal_code']}"
-    #           f"\tPrice: {i['list_price']}\n"
-    #           f"Rooms: {i['description']['beds']}, "
-    #           f"Sqft: {i['description']['sqft']}, "
-    #           f"Baths: {i['description']['baths']}")
     data_list = []
 
     for i in data["data"]["home_search"]["results"]:
@@ -57,5 +52,3 @@ if __name__ == '__main__':
     queryTokenList = querySplitAndAnalysis(query)
     print(queryTokenList)
 
-#@TODO: Get project on Django and display the houses with the coords, do your computations and display cash on cash return
-#@TODO: read in the json data into a database that way you can sort through it

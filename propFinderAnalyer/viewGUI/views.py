@@ -29,4 +29,3 @@ def display_data(request):
 
     # Render the HTML template with the retrieved data
     return render(request, 'viewGUI/data_display.html', {'data': data},)
-        #TODO: not sure why the context wont go in, api needs to be passed, get db displayed
