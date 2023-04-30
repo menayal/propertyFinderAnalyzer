@@ -1,3 +1,6 @@
+'''
+Pulls data from the API and dumps it into json file
+'''
 import requests
 import config
 import json
@@ -19,10 +22,12 @@ def findHomesIn60139():
 
     response = requests.request("GET", url, headers=headers, params=querystring)
 
+    # Uncomment the following to dump into json file
     # with open('data.json', 'w', encoding='utf-8') as f:
     #     json.dump(response.text, f, ensure_ascii=False, indent=4)
     print(response.text)
 
+# Uncomment the following to dump into json file
 # if __name__ == '__main__':
 #     findHomesIn60139()
 

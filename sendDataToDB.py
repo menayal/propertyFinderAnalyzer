@@ -1,3 +1,7 @@
+'''
+This code takes in JSON data and converts it into a SQL database for use in the HTML and JS.
+'''
+
 import json
 import sqlite3
 

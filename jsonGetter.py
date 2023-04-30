@@ -1,4 +1,6 @@
-
+'''
+Filters through JSON data.
+'''
 import json
 import pandas as pd
 import nltk #tokenize
@@ -20,19 +22,6 @@ def findJson():
               f"{i['location']['address']['state_code']}, "
               f"{i['location']['address']['postal_code']}"
               f"\tPrice: {i['list_price']}")
-
-    # print(pd.json_normalize(data["data"]["home_search"]["results"][0]))
-    # print((data["data"]["home_search"]["results"][0]["location"]["address"]))
-    #
-    # print(f"{data['data']['home_search']['results'][0]['location']['address']['line']}, "
-    #       f"{data['data']['home_search']['results'][0]['location']['address']['city']}, "
-    #       f"{data['data']['home_search']['results'][0]['location']['address']['state_code']}, "
-    #       f"{data['data']['home_search']['results'][0]['location']['address']['postal_code']}"
-    #       f" Price: {data['data']['home_search']['results'][0]['list_price']}")
-
-
-    # @todo use nlp to query the data
-    #split it up
 
 def querySplitAndAnalysis(query):
     tokens = nltk.word_tokenize(query)
@@ -56,9 +45,3 @@ if __name__ == '__main__':
 
     doc = nlp(query)
     displacy.serve(doc, style="ent")
-    
-    #@todo work on NER for cities in IL only, including all suburbs, currently only works with big.expand it for prices,
-        #@TODO schaumburg glen ellyn glendale heights willowbrook warrenville plainfield bloomingdale chicago
-        # not working with these cities, keep researching the problem
-    #@todo bathrooms, sqft etc...
-    #@todo then use the locatation to map onto the web app map
