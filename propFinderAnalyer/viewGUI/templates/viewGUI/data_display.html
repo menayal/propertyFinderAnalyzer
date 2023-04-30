@@ -1,61 +1,120 @@
-<!DOCTYPE html>
 <html>
 <head>
+    <title>Data Display</title>
     <style>
-        /* Set font family and background color */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-    /* Center the header */
-    h1 {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    /* Set the size and position of the map and table containers */
-    #map, #table {
-        height: 500px;
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
         width: 50%;
         float: left;
-    }
-
-    /* Set styles for the table */
-    table {
+      }
+      #table {
+        height: 100%;
+        width: 50%;
+        overflow-y: scroll;
+        float: right;
+      }
+      table {
         width: 100%;
         border-collapse: collapse;
-        margin-top: 20px;
-    }
-
-    th, td {
+      }
+      th, td {
         padding: 8px;
         text-align: left;
         border-bottom: 1px solid #ddd;
-    }
-
-    th {
+      }
+      th {
         background-color: #f2f2f2;
-    }
-
-    /* Highlight table row on hover */
-    .table-row:hover {
-        background-color: #e5e5e5;
-        cursor: pointer;
-    }
-
-    /* Hide columns for lat and lon values */
-    .hidden {
+      }
+      .hidden {
         display: none;
-    }
-</style>
+      }
+    </style>
 
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <h1>Data Display</h1>
+    <nav class=light-blue lighten-2">
+        <div class="nav-wrapper" >
+          <a class="brand-logo center">Data Display</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+                <!-- Modal Trigger -->
+                <button data-target="modal1" class="btn modal-trigger">Cash on Cash Return Configuration</button>
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <form>
+                        <div class="form-group">
+                          <label for="monthly rental income">Monthly Rental Income</label>
+                          <input type="number" class="form-control" id="monthly rental income" placeholder="Enter monthly rental income">
+                        </div>
+                        <h5 style="color: black">Monthly Expenses</h5>
+                        <div class="form-group">
+                          <label for="tax">Monthly tax</label>
+                          <input type="number" class="form-control" id="tax" placeholder="Enter tax">
+                        </div>
+                        <div class="form-group">
+                          <label for="insurance">Insurance</label>
+                          <input type="number" class="form-control" id="insurance" placeholder="Enter insurance">
+                        </div>
+                        <div class="form-group">
+                          <label for="utilities">Utilities</label>
+                          <input type="number" class="form-control" id="utilities" placeholder="Enter utilities or enter nothing to skip">
+                        </div>
+                        <div class="form-group">
+                          <label for="HOA">HOA</label>
+                          <input type="number" class="form-control" id="HOA" placeholder="Enter HOA or enter nothing to skip">
+                        </div>
+                        <div class="form-group">
+                          <label for="repairs">Estimated Repairs</label>
+                          <input type="number" class="form-control" id="repairs" placeholder="Enter repairs (better to be conservative) or enter nothing to skip">
+                        </div>
+
+                        <h5 style="color: black">Monthly Mortage</h5>
+                        <h6 style="color: black">Disclaimer: if buying wish cash, enter "cash" in down payment</h6>
+                        <div class="form-group">
+                          <label for="downPayment">Down Payment</label>
+                          <input type="text" class="form-control" id="downPayment" placeholder="Enter down payment or 'cash' or enter nothing to skip">
+                        </div>
+                        <div class="form-group">
+                          <label for="interestRate">Interest Rate</label>
+                          <input type="number" class="form-control" id="interestRate" placeholder="Enter interest rate or enter nothing to skip">
+                        </div>
+                        <div class="form-group">
+                          <label for="loan Term">Loan Term</label>
+                          <input type="number" class="form-control" id="loan Term" placeholder="Enter loan term or enter nothing to skip">
+                        </div>
+                        <div class="form-group">
+                          <label for="closingCosts">Closing Costs</label>
+                          <input type="number" class="form-control" id="closingCosts" placeholder="Enter closing costs">
+                        </div>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="submit-btn">Submit</a>
+                </div>
+                </div>
+            </li>
+        </div>
+   </nav>
+
+<!--    <h1>Data Display</h1>-->
+
     <div id="map"></div>
     <div id="table">
-        <table>
+        <table class="highlight" class="responsive-table">
             <thead>
                 <tr>
                     <th>Address</th>
@@ -68,6 +127,7 @@
                     <th>Bathrooms</th>
                     <th class="hidden">lon</th>
                     <th class="hidden">lat</th>
+                    <th>Cash on Cash Return</th>
                </tr>
             </thead>
             {% for item in data %}
@@ -82,12 +142,33 @@
                 <td>{{ item.7 }}</td>
                 <td class="hidden">{{ item.8 }}</td>
                 <td class="hidden">{{ item.9 }}</td>
+                <td></td>
+
             </tr>
             {% endfor %}
         </table>
     </div>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap"></script>
+               Compiled and minified JavaScript
+
     <script>
+<!--        &lt;!&ndash;    testing&ndash;&gt;-->
+
+<!--        // Get all table rows except for the header-->
+<!--        const tableRows = document.querySelectorAll("#table tbody tr:not(.header)");-->
+
+<!--        // Loop through each row and calculate CoC return-->
+<!--        tableRows.forEach(row => {-->
+<!--          var coctest = parseFloat(row.querySelector('td:nth-child(11)').innerText);-->
+<!--          console.log(coctest)-->
+<!--          const coc = 1;-->
+<!--          row.querySelector('td:nth-child(11)').innerText = coc;-->
+<!--        });-->
+
+
+
+
+
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
@@ -123,4 +204,227 @@
             }
         }
 
-    </script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+    });
+
+
+<!--    event listeer for submit in modal-->
+    // reference to the Submit button
+    const submitBtn = document.getElementById('submit-btn');
+
+    // Add an event listener that executes a function when clicked
+    submitBtn.addEventListener('click', function() {
+        // Call your function here
+        calculateCashOnCash();
+    });
+
+
+    <!--    cash calc-->
+    function calculateCashOnCash() {
+<!--    Add the table header -->
+
+
+      // Get the input values from the form
+      var monthlyRentalIncome = Number(document.getElementById("monthly rental income").value);
+      var tax = Number(document.getElementById("tax").value);
+      var insurance = Number(document.getElementById("insurance").value);
+
+      var utilities = Number(document.getElementById("utilities").value);
+      var HOA = Number(document.getElementById("HOA").value);
+
+      var repairs = Number(document.getElementById("repairs").value);
+
+<!--      ENTER  'cash' for cash or nothing to skip funct -- add funct-->
+      var downPayment = document.getElementById("downPayment").value;
+<!--      add nothing to skip -->
+      var interestRate = Number(document.getElementById("interestRate").value);
+      var loanTerm = Number(document.getElementById("loan Term").value);
+
+      var closingCosts = Number(document.getElementById("closingCosts").value);
+
+        //monthly income including your misc - can make more detailed..
+<!--      console.log(`monthlyRental, ${monthlyRentalIncome}!`);-->
+<!--      console.log(`tax, ${tax}!`);-->
+<!--      console.log(`insurance, ${insurance}!`);-->
+<!--      console.log(`utilities, ${utilities}!`);-->
+<!--      console.log(`HOA, ${HOA}!`);-->
+<!--      console.log(`repairs, ${repairs}!`);-->
+<!--      console.log(`downPayment, ${downPayment}!`);-->
+<!--      console.log(`interestRate, ${interestRate}!`);-->
+<!--      console.log(`loanTerm, ${loanTerm}!`);-->
+<!--      console.log(`closingCosts, ${closingCosts}!`);-->
+
+
+
+
+<!--        //if cash-->
+<!--        if (downPayment === 'cash') {-->
+<!--            // code to be executed if downPayment is equal to 'cash'-->
+<!--            //other calc-->
+<!--            var monthlyExp = tax + insurance + utilities + HOA + repairs;-->
+<!--            //cash flow-->
+<!--            var cashFlow = monthlyRentalIncome - monthlyExp;-->
+<!--            var yearlyCashFlow = cashFlow * 12;-->
+<!--            //do cashflow / price for %-->
+
+<!--        } else {-->
+<!--            //calc the monthly mrotage NEED PRICE TO DO IT-->
+<!--              var monthlyInterestRate = interestRate / 1200; // Convert annual interest rate to monthly rate-->
+<!--              var totalPayments = loanTerm * 12; // Convert loan term from years to months-->
+<!--              var denominator = Math.pow(1 + monthlyInterestRate, -totalPayments);-->
+<!--              var loanAmount = price - parseInt(downPayment);-->
+<!--              var monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - denominator);-->
+
+<!--            //monthly expenses added maybe mortage if getting-->
+<!--            var monthlyExp = tax + insurance + utilities + HOA + repairs + monthlyPayment;-->
+<!--            var cashFlow = monthlyRentalIncome - monthlyExp;-->
+<!--            var yearlyCashFlow = cashFlow * 12;-->
+<!--        }-->
+
+
+
+      // Calculate the cash on cash return not usess
+<!--      var netIncome = monthlyRentalIncome - expenses;-->
+<!--      var cashOnCashReturn = (netIncome * 12) / purchasePrice * 100;-->
+
+      // Loop over the table rows and add a new column with the result
+      var rows = document.querySelectorAll('.table-row');
+      for (var i = 0; i < rows.length; i++) {
+        var row = rows[i];
+        var price = parseFloat(row.querySelector('td:nth-child(5)').innerText);
+
+<!--        testing-->
+        var coc =  parseFloat(row.querySelector('td:nth-child(9)').innerText);
+        console.log(`before teh iff, ${coc}!`);
+
+
+        var cashOnCashCell = document.createElement('td');
+<!--        console.log(`price, ${price}!`);-->
+
+         //if cash
+        if (downPayment === 'cash') {
+            // code to be executed if downPayment is equal to 'cash'
+            //other calc
+            var monthlyExp = tax + insurance + utilities + HOA + repairs;
+            //cash flow
+            var cashFlow = monthlyRentalIncome - monthlyExp;
+<!--            console.log(`monthlyRentalIncome CASH: , ${monthlyRentalIncome}!`);-->
+<!--            console.log(`monthlyExp tax CASH: , ${tax}!`);-->
+<!--            console.log(`monthlyExp insurance CASH: , ${insurance}!`);-->
+<!--            console.log(`monthlyExp utilities CASH: , ${utilities}!`);-->
+<!--            console.log(`monthlyExp HOA CASH: , ${HOA}!`);-->
+<!--            console.log(`monthlyExp repairs CASH: , ${repairs}!`);-->
+
+
+<!--            console.log(`monthlyExp calc CASH: , ${tax + insurance + utilities + HOA + repairs}!`);-->
+<!--            console.log(`cashFlow CASH: , ${cashFlow}!`);-->
+
+
+            var yearlyCashFlow = cashFlow * 12;
+<!--            console.log(`yearlyCashFlow CASH: , ${yearlyCashFlow}!`);-->
+
+
+            //do cashflow / price for %
+            var cashOnCash = (yearlyCashFlow / (price + closingCosts)) * 100;
+<!--            console.log(`cashOnCash CASH: , ${cashOnCash}!`);-->
+
+<!--        testing-->
+        var coc =  row.querySelector('td:nth-child(9)').innerText;
+        console.log(`before the else, ${coc}!`);
+
+        } else {
+            //calc the monthly mrotage NEED PRICE TO DO IT
+              var monthlyInterestRate = interestRate / 1200; // Convert annual interest rate to monthly rate
+              var totalPayments = loanTerm * 12; // Convert loan term from years to months
+              var denominator = Math.pow(1 + monthlyInterestRate, -totalPayments);
+              var loanAmount = price - Number(downPayment);
+              var monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - denominator);
+
+<!--              var monthlyInterestRate = 5 / 1200; // Convert annual interest rate to monthly rate-->
+<!--              var totalPayments = 30 * 12; // Convert loan term from years to months-->
+<!--              var denominator = Math.pow(1 + monthlyInterestRate, -totalPayments);-->
+<!--              var loanAmount = 200000 - Number(40000);-->
+<!--              var monthlyPayment = (160000 * monthlyInterestRate) / (1 - denominator);-->
+<!--              console.log(`HERRE: , ${monthlyPayment}!`);-->
+
+
+
+            //monthly expenses added maybe mortage if getting
+            var monthlyExp = tax + insurance + utilities + HOA + repairs + monthlyPayment;
+            var cashFlow = monthlyRentalIncome - monthlyExp;
+            var yearlyCashFlow = cashFlow * 12;
+            var cashOnCash = (yearlyCashFlow / (Number(downPayment) + closingCosts)) * 100;
+
+
+<!--            console.log(`price, ${price}!`);-->
+<!--            console.log(`monthlyRentalIncome mort: , ${monthlyRentalIncome}!`);-->
+<!--            console.log(`monthlyExp tax mort: , ${tax}!`);-->
+<!--            console.log(`monthlyExp insurance mort: , ${insurance}!`);-->
+<!--            console.log(`monthlyExp utilities mort: , ${utilities}!`);-->
+<!--            console.log(`monthlyExp HOA mort: , ${HOA}!`);-->
+<!--            console.log(`monthlyExp repairs mort: , ${repairs}!`);-->
+<!--            console.log(`monthlyExp monthlyPayment mort: , ${monthlyPayment}!`);-->
+
+
+
+<!--            console.log(`monthlyExp calc MORTAGE: , ${tax + insurance + utilities + HOA + repairs + monthlyPayment}!`);-->
+<!--            console.log(`monthlyExp EXP VAR: , ${monthlyExp}!`);-->
+
+<!--            console.log(`cashFlow MORTAGE: , ${cashFlow}!`);-->
+<!--            console.log(`cashOnCash MORTAGE: , ${cashOnCash}!`);-->
+
+<!--            @TODO:FIX THISSS WHY IS IT NAN-->
+
+
+
+
+        } //end else
+
+<!--        var cashOnCash = (netIncome * 12) / price * 100;-->
+
+<!--&lt;!&ndash;working code&ndash;&gt;-->
+<!--        cashOnCashCell.innerText = cashOnCash.toFixed(2) + '%';-->
+<!--        row.appendChild(cashOnCashCell);-->
+
+<!--new code-->
+            var cashOnCashCell = row.querySelector('td:nth-child(11)');
+<!--            var cashOnCash = 5.025; // already calced-->
+            cashOnCashCell.innerText = cashOnCash.toFixed(2) + '%';
+
+
+<!--        Testing code here -->
+<!--            var cashOnCashCell = row.querySelector('td:nth-child(11)');-->
+<!--            var cashOnCash = 5.025; // replace with your function to calculate cash on cash return-->
+<!--            cashOnCashCell.innerText = cashOnCash.toFixed(2) + '%';-->
+
+<!--            &lt;!&ndash;      &lt;!&ndash;        testing&ndash;&gt;&ndash;&gt;-->
+<!--            var coc =  parseFloat(row.querySelector('td:nth-child(9)').innerText);-->
+<!--            console.log(`before end of for, ${coc}!`);-->
+
+
+      }  //for loop
+
+    } //coc funct
+
+
+<!--&lt;!&ndash;    testing&ndash;&gt;-->
+
+<!--    // Get all table rows except for the header-->
+<!--    const tableRows = document.querySelectorAll("#table tbody tr:not(.header)");-->
+
+<!--    // Loop through each row and calculate CoC return-->
+<!--    tableRows.forEach(row => {-->
+<!--      const coc = 1;-->
+<!--      row.querySelector('td:nth-child(10)').innerText = coc;-->
+<!--    });-->
+
+
+
+
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
