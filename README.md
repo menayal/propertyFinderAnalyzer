@@ -8,7 +8,7 @@ Additionally, Property Finder Analyzer features a Cash on Cash Return Configurat
  * To run this web app locally:
 	 * Clone this repo
 	 * Install the dependencies and libraries:
-		 * `pip install -r requirements`
+		 * `pip install -r requirements.txt`
 	 * Move into the `propFinderAnalyer` directory
 		 * `cd propFinderAnalyer`
 		 * To launch it, run:
